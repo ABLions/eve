@@ -1,4 +1,51 @@
 body{
     
-    background-color:red;
+    background-color:white;
 }
+
+.card{
+    margin:50px;
+}
+.thumbnail{
+    height:270px;
+}
+
+.images{
+    height:150px;
+}
+
+
+.caption{
+    height:100px;
+    position: relative;
+    margin-top:-15px;
+}
+
+
+#storeImages, #socialNet{
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20%;
+}
+
+#webImages{
+    max-width: 35%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 28%;
+}
+
+#PlatformImages, #ecommerceImages, #googleCloud{
+    max-width: 35%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 28%;
+}
+

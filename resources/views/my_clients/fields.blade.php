@@ -1,25 +1,25 @@
 <!-- Name Field -->
 <div class="form-group col-sm-12 col-lg-12">
-    {!! Form::label('name', 'Name:') !!}
-    {!! Form::text('name', null, ['class' => 'form-control']) !!}
+    {!! Form::label('name', 'Nombre:') !!}
+    {!! Form::text('name', null, ['class' => 'form-control', 'required']) !!}
 </div>
 
 <!-- Phone Field -->
-<div class="form-group col-sm-6">
+<div class="form-group col-sm-12 col-lg-12">
     {!! Form::label('phone', 'Teléfono:') !!}
-    {!! Form::number('phone', null, ['class' => 'form-control']) !!}
+    {!! Form::number('phone', null, ['class' => 'form-control', 'min' => '0', 'required' ]) !!}
 </div>
 
 <!-- Mail Field -->
 <div class="form-group col-sm-12 col-lg-12">
-    {!! Form::label('mail', 'Mail:') !!}
-    {!! Form::text('mail', null, ['class' => 'form-control']) !!}
+    {!! Form::label('mail', 'Correo electrónico:') !!}
+    {!! Form::email('mail', null, ['class' => 'form-control', 'required']) !!}
 </div>
 
 <!-- Comments Field -->
 <div class="form-group col-sm-12 col-lg-12">
-    {!! Form::label('comments', 'Comments:') !!}
-    {!! Form::text('comments', null, ['class' => 'form-control']) !!}
+    {!! Form::label('comments', 'Comentarios:') !!}
+    {!! Form::textarea('comments', null, ['class' => 'form-control', 'rows' => '4']) !!}
 </div>
 
 <!-- Submit Field -->
